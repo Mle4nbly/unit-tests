@@ -1,6 +1,6 @@
 import { healthChecking } from "./js/game.js";
 
-healthChecking({name: 'Маг', health: 90});
-healthChecking({name: 'Маг', health: 50});
-healthChecking({name: 'Маг', health: 10});
-healthChecking({name: 'Маг'});
+console.log(healthChecking({name: 'Маг', health: 90}));
+console.log(healthChecking({name: 'Маг', health: 50}));
+console.log(healthChecking({name: 'Маг', health: 10}));
+console.log(healthChecking({name: 'Маг'}));
